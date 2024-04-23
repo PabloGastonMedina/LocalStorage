@@ -44,22 +44,32 @@ form input:hover{
     color: #bbdec6;
 }
 
-.recordatorios{
-    text-align: center;
-    width: 40%;
-    border: 1px solid #010300;
-}
-
-#listaRecordatorios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 p{
     color: red;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.recordatorios{
+    width: 50%;
+    border: 1px solid #010300;
+}
+
+.recordatorios h2{
+    text-align: center;
+}
+
+li{
+    color: black;
+    margin: .3rem;
+    list-style-type: none;;
+    font-weight: 800;
+}
+.borrar{
+    float: right;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
 }
 
 @media (max-width: 1200px){
@@ -83,8 +93,5 @@ p{
         width: 90%;
         margin-top: 2rem;
         background-color: #bbdec6;
-    }
-    #listaRecordatorios{
-        background-color: #5a7f78;
     }
 }
